@@ -1,0 +1,13 @@
+<footer *ngIf="router.url !== '/select-seats'" class="row w-100 justify-content-around mx-0 footer"
+  [ngClass]="fixed ? 'fixed-bottom' : ''">
+  <div class="text-center text-white mt-auto" style="height: 50px; line-height: 60px" [ngClass]="{
+      'bg-dark': !bgColor,
+      bgColor: bgColor,
+      'text-white': !textColor,
+      textColor: textColor
+    }">
+    Designed & Developed by
+    <a href="https://github.com/Sushil456/capstone-project.git" target="_blank"
+      class="text-decoration-none mx-2"><strong>Sushil Kumar</strong></a>
+  </div>
+</footer>

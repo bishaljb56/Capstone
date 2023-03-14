@@ -1,0 +1,11 @@
+.contact-us-banner {
+  background: url(\src\assets\movie.jpg) no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.contact-us-banner-text {
+  padding-top: 170px;
+  backdrop-filter: blur(3px);
+  text-align: center;
+  color: seashell;
+}
